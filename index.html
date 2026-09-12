@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise 💗</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="hearts"></div>
+
+    <!-- HALAMAN 1 -->
+    <section id="opening" class="page active">
+        <div class="content">
+            <p class="small-text">Menginjak Usia Kepala Orang</p>
+            <h1>Happiest Birthday! 🎂</h1>
+            <p>Bianca Dwitha Khairunnisa<33</p>
+
+            <button onclick="openSurprise()">
+                Open Surprise 💗
+            </button>
+        </div>
+    </section>
+
+
+    <!-- HALAMAN 2 -->
+    <section id="cake" class="page">
+        <div class="content">
+            <div class="cake">🎂</div>
+
+            <h2>Make A Wish!!</h2>
+            <p>nanti gwej bantu aamiin-kan dari sini</p>
+
+            <button onclick="blowCandle()">
+                Blow the Candle 🕯️
+            </button>
+        </div>
+    </section>
+
+
+    <!-- HALAMAN 3 -->
+    <section id="message" class="page">
+        <div class="content">
+            <h2>Hope 20 Treats U Better!💗</h2>
+
+            <p>
+                semoga selalu dikelilingi orang orang baik<br>
+                semoga lebih bahagia dari tahun tahun kemarin<br>
+                dan semoga ga lupa manusia imoep macam gwej xixi
+            </p>
+
+            <button onclick="showSlideshow()">
+                One More Thing... ✨
+            </button>
+        </div>
+    </section>
+
+
+    <!-- HALAMAN 4 -->
+    <section id="slideshow" class="page">
+        <div class="content slideshow-content">
+
+            <h2>Our Memories 📸</h2>
+
+            <div class="photo-container">
+                <img id="photo" src="" alt="Memory">
+            </div>
+
+            <p class="memory-text">
+                Some moments are worth remembering forever. 💕
+            </p>
+
+            <button onclick="nextPhoto()">
+                Next 💗
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- MUSIC -->
+    <audio id="music" loop>
+        <source src="music/Millenium Disco Club, Vol. 1.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
