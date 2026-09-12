@@ -81,7 +81,7 @@ function showPhoto() {
 
     setTimeout(() => {
 
-        photoElement.src = "bian/" + photos[currentPhoto];
+        photoElement.src = photos[currentPhoto];
 
         photoElement.style.opacity = 1;
 
